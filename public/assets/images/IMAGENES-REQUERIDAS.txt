@@ -1,0 +1,35 @@
+📁 IMÁGENES NECESARIAS PARA SYLVARA LANDING
+
+Coloca las siguientes imágenes en esta carpeta (public/assets/images/):
+
+✅ logo-sylvara.svg - Logo de Sylvara (ya está)
+
+❌ PENDIENTES:
+
+1. hero-forest.jpg
+   Ubicación: Página de inicio (Home)
+   Descripción: Imagen principal del héroe - bosque tropical
+   Tamaño recomendado: 1200x800px mínimo
+
+2. leaf-cell.jpg
+   Ubicación: Página Modo de Uso
+   Descripción: Imagen de célula de hoja para ilustrar el proceso
+   Tamaño recomendado: 800x600px
+
+3. forest-canopy.jpg
+   Ubicación: Página Android
+   Descripción: Vista del dosel forestal desde abajo
+   Tamaño recomendado: 1000x1000px (cuadrada)
+
+4. smartphone-charts.jpg
+   Ubicación: Página Android
+   Descripción: Smartphone mostrando gráficas de datos
+   Tamaño recomendado: 600x800px (vertical)
+
+5. iphone-app.jpg
+   Ubicación: Página iOS
+   Descripción: iPhone mostrando visualización de datos forestales
+   Tamaño recomendado: 600x800px (vertical)
+
+NOTA: Todas las imágenes deben estar optimizadas para web (comprimidas)
+Formatos aceptados: JPG, PNG, WebP

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0E3520;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#leafGrad)"/>
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="48" fill="#F1F5F9" text-anchor="middle" opacity="0.8">
+    🍃 CÉLULA DE HOJA
+  </text>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="20" fill="#F1F5F9" text-anchor="middle" opacity="0.6">
+    leaf-cell.jpg
+  </text>
+  <text x="400" y="365" font-family="Arial, sans-serif" font-size="16" fill="#F1F5F9" text-anchor="middle" opacity="0.5">
+    Reemplaza con imagen microscópica real
+  </text>
+</svg>

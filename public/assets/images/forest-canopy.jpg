@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="canopyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0E3520;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#canopyGrad)"/>
+  <text x="500" y="460" font-family="Arial, sans-serif" font-size="48" fill="#F1F5F9" text-anchor="middle" opacity="0.8">
+    🌳 DOSEL FORESTAL
+  </text>
+  <text x="500" y="520" font-family="Arial, sans-serif" font-size="22" fill="#F1F5F9" text-anchor="middle" opacity="0.6">
+    forest-canopy.jpg
+  </text>
+  <text x="500" y="560" font-family="Arial, sans-serif" font-size="16" fill="#F1F5F9" text-anchor="middle" opacity="0.5">
+    Vista desde abajo del bosque
+  </text>
+</svg>

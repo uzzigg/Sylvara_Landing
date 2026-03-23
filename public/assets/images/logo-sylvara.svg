@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Butterfly -->
+  <path d="M135 75C140 70 145 68 150 70C153 71 155 74 155 77C155 82 152 86 147 88C145 89 142 89 139 87L135 75Z" fill="#0E3520"/>
+  
+  <!-- Center leaf (top) -->
+  <path d="M100 60C95 65 92 72 92 80L100 95L108 80C108 72 105 65 100 60Z" fill="#0E3520"/>
+  <path d="M100 65C97 68 95 73 95 78L100 87L105 78C105 73 103 68 100 65Z" fill="#F1F5F9"/>
+  
+  <!-- Left leaf -->
+  <path d="M75 85C70 88 67 93 67 99C67 105 70 110 75 113L92 105C92 95 85 87 75 85Z" fill="#0E3520"/>
+  <path d="M78 90C76 92 75 95 75 98C75 101 76 104 78 106L88 102C88 97 84 92 78 90Z" fill="#F1F5F9"/>
+  
+  <!-- Right leaf -->
+  <path d="M125 85C130 88 133 93 133 99C133 105 130 110 125 113L108 105C108 95 115 87 125 85Z" fill="#0E3520"/>
+  <path d="M122 90C124 92 125 95 125 98C125 101 124 104 122 106L112 102C112 97 116 92 122 90Z" fill="#F1F5F9"/>
+  
+  <!-- Stem -->
+  <path d="M98 95V120" stroke="#0E3520" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Infinity symbol with eyes -->
+  <g transform="translate(100, 125)">
+    <!-- Left circle -->
+    <circle cx="-17" cy="0" r="17" fill="none" stroke="#0E3520" stroke-width="6"/>
+    <circle cx="-17" cy="0" r="8" fill="#0E3520"/>
+    <circle cx="-15" cy="-2" r="3" fill="#F1F5F9"/>
+    
+    <!-- Right circle -->
+    <circle cx="17" cy="0" r="17" fill="none" stroke="#0E3520" stroke-width="6"/>
+    <circle cx="17" cy="0" r="8" fill="#0E3520"/>
+    <circle cx="19" cy="-2" r="3" fill="#F1F5F9"/>
+    
+    <!-- Center connection -->
+    <path d="M-8 8C-4 12 4 12 8 8M8 -8C4 -12 -4 -12 -8 -8" stroke="#0E3520" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Bottom geometric element -->
+  <path d="M90 145L100 155L110 145L100 135Z" fill="#2E7D32"/>
+  <path d="M95 145L100 150L105 145L100 140Z" fill="#F1F5F9"/>
+</svg>

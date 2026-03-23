@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F1F5F9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#phoneGrad)"/>
+  <rect x="50" y="100" width="500" height="600" rx="30" fill="#0E3520" opacity="0.8"/>
+  <text x="300" y="380" font-family="Arial, sans-serif" font-size="36" fill="#F1F5F9" text-anchor="middle">
+    📱 📊
+  </text>
+  <text x="300" y="430" font-family="Arial, sans-serif" font-size="18" fill="#F1F5F9" text-anchor="middle" opacity="0.8">
+    smartphone-charts.jpg
+  </text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="14" fill="#F1F5F9" text-anchor="middle" opacity="0.6">
+    Smartphone con gráficas
+  </text>
+</svg>
