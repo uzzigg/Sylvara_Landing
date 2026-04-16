@@ -1,8 +1,6 @@
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
-  const navigate = useNavigate()
   
   useEffect(() => {
     // Set page title for SEO and accessibility
@@ -50,10 +48,10 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white dark:bg-primary rounded-xl p-8 shadow-xl border border-primary/5 flex flex-col items-center text-center transition-transform hover:-translate-y-1 hover:shadow-2xl">
             <span className="text-primary dark:text-white/60 text-sm font-bold uppercase tracking-widest mb-2">
-              Índices
+             indices primarios
             </span>
             <span className="text-4xl font-bold text-primary dark:text-white">
-              4 Primarios
+              4 Indices de biodiversidad
             </span>
             <p className="text-slate-500 dark:text-white/40 mt-2 text-sm">
               Monitoreo exhaustivo en tiempo real
@@ -65,10 +63,10 @@ export default function Home() {
               Precisión
             </span>
             <span className="text-4xl font-bold text-primary dark:text-white">
-              100% Sin Errores
+              Calculos Automaticos
             </span>
             <p className="text-slate-500 dark:text-white/40 mt-2 text-sm">
-              Validación algorítmica de datos
+              Calculos automaticos de indices
             </p>
           </div>
 
@@ -80,7 +78,7 @@ export default function Home() {
               Proyectos Ilimitados
             </span>
             <p className="text-slate-500 dark:text-white/40 mt-2 text-sm">
-              Escalabilidad total para su empresa
+              Realiza todos los proyectos que necesites
             </p>
           </div>
         </div>
@@ -365,31 +363,7 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* Sticky Bottom CTA */}
-      <div 
-        className="fixed bottom-0 left-0 right-0 z-50 p-6 pointer-events-none"
-        role="complementary"
-        aria-label="Acciones rápidas"
-      >
-        <div className="max-w-xl mx-auto bg-primary/95 backdrop-blur-md rounded-full shadow-2xl p-2 flex items-center gap-2 pointer-events-auto border border-white/20">
-          <button 
-            onClick={() => navigate('/android')}
-            className="flex-1 bg-white text-primary font-bold py-3 rounded-full hover:bg-slate-100 transition-smooth text-sm md:text-base flex items-center justify-center gap-2 focus-visible:ring-4 focus-visible:ring-white/30"
-            aria-label="Descargar aplicación APK Android"
-          >
-            <span className="material-symbols-outlined text-xl" aria-hidden="true">download</span>
-            Descargar APK
-          </button>
-          <button 
-            onClick={() => navigate('/ios')}
-            className="flex-1 bg-primary border border-white/20 text-white font-bold py-3 rounded-full hover:bg-white/10 transition-smooth text-sm md:text-base flex items-center justify-center gap-2 focus-visible:ring-4 focus-visible:ring-white/30"
-            aria-label="Enviar correo de contacto"
-          >
-            <span className="material-symbols-outlined text-xl" aria-hidden="true">mail</span>
-            Enviar Correo
-          </button>
-        </div>
-      </div>
+
     </>
   )
 }

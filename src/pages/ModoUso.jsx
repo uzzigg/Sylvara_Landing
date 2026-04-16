@@ -1,8 +1,6 @@
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
 
 export default function ModoUso() {
-  const navigate = useNavigate()
   
   useEffect(() => {
     document.title = 'Modo de Uso - Sylvara'
@@ -563,43 +561,7 @@ export default function ModoUso() {
         </section>
       </div>
 
-      {/* Sticky Bottom CTA */}
-      <div className="fixed bottom-0 left-0 w-full z-40 p-6 pointer-events-none">
-        <div className="max-w-4xl mx-auto pointer-events-auto">
-          <div className="bg-primary text-white p-6 rounded-2xl shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6 border border-white/10">
-            <div className="flex items-center gap-4">
-              <div className="bg-white/10 p-3 rounded-xl">
-                <span className="material-symbols-outlined" aria-hidden="true">rocket_launch</span>
-              </div>
-              <div>
-                <p className="font-bold text-lg leading-tight">¿Listo para comenzar el monitoreo?</p>
-                <p className="text-white/70 text-sm">Empiece su proyecto gratuito con hasta 10 hectáreas.</p>
-              </div>
-            </div>
-            <div className="flex gap-4 w-full md:w-auto">
-              <button 
-                onClick={() => navigate('/android')}
-                className="flex-1 md:flex-none bg-white text-primary px-8 py-3 rounded-xl font-bold hover:bg-background-light transition-smooth shadow-lg focus-visible:ring-4 focus-visible:ring-white/30 flex items-center justify-center gap-2"
-                aria-label="Descargar aplicación APK"
-              >
-                <span className="material-symbols-outlined text-xl" aria-hidden="true">download</span>
-                Descargar APK
-              </button>
-              <button 
-                onClick={() => navigate('/ios')}
-                className="flex-1 md:flex-none bg-primary/20 text-white border border-white/20 px-8 py-3 rounded-xl font-bold hover:bg-white/10 transition-smooth focus-visible:ring-4 focus-visible:ring-white/30 flex items-center justify-center gap-2"
-                aria-label="Enviar correo para iOS"
-              >
-                <span className="material-symbols-outlined text-xl" aria-hidden="true">mail</span>
-                Enviar Correo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      {/* Space for Sticky CTA */}
-      <div className="h-32" aria-hidden="true"></div>
     </main>
   )
 }

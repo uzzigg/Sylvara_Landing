@@ -71,13 +71,6 @@ export default function Navbar() {
           >
             Android
           </Link>
-          <Link 
-            to="/ios" 
-            className={linkClass('/ios')}
-            role="menuitem"
-          >
-            iOS
-          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -123,14 +116,6 @@ export default function Navbar() {
               onClick={closeMenu}
             >
               Android
-            </Link>
-            <Link 
-              to="/ios" 
-              className={mobileLinkClass('/ios')}
-              role="menuitem"
-              onClick={closeMenu}
-            >
-              iOS
             </Link>
           </div>
         </div>

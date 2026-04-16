@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import ModoUso from './pages/ModoUso'
 import Android from './pages/Android'
-import IOS from './pages/IOS'
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/modo-uso" element={<ModoUso />} />
           <Route path="/android" element={<Android />} />
-          <Route path="/ios" element={<IOS />} />
         </Routes>
       </main>
     </div>

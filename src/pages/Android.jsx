@@ -35,7 +35,7 @@ export default function Android() {
           </div>
         </section>
 
-        {/* Download Card */}
+        {/* Email Notice Card */}
         <section className="mb-16" aria-labelledby="download-title">
           <div className="flex flex-col overflow-hidden rounded-xl border border-primary/10 bg-white shadow-sm dark:bg-slate-900/50 md:flex-row">
             <div className="relative aspect-video w-full bg-primary/5 md:w-1/2 lg:w-2/5">
@@ -60,19 +60,17 @@ export default function Android() {
                   Android 8.0+
                 </div>
               </div>
-              <div className="mt-6 flex flex-col gap-4 border-t border-slate-100 pt-6 dark:border-white/5 sm:flex-row sm:items-center">
-                <button 
-                  className="flex items-center justify-center gap-2 rounded-xl bg-primary px-8 py-4 text-lg font-bold text-white shadow-lg shadow-primary/20 hover:scale-[1.02] transition-transform active:scale-95 focus-visible:ring-4 focus-visible:ring-primary/30"
-                  aria-label="Descargar archivo APK de Sylvara versión 1.0"
-                >
-                  <span className="material-symbols-outlined" aria-hidden="true">download</span>
-                  Descargar APK
-                </button>
-                <div className="text-sm text-slate-500">
-                  <span className="block font-medium text-slate-900 dark:text-slate-200">
-                    Tamaño del archivo: 48.2 MB
-                  </span>
-                  <span>MD5: 8f2b3c...e1a0</span>
+              <div className="mt-6 border-t border-slate-100 pt-6 dark:border-white/5">
+                <div className="flex items-start gap-4 rounded-xl bg-primary/5 border border-primary/20 p-5">
+                  <span className="material-symbols-outlined text-primary text-3xl mt-0.5 shrink-0" aria-hidden="true">mark_email_read</span>
+                  <div>
+                    <p className="font-bold text-primary dark:text-white text-base">
+                      El APK se enviará por correo electrónico
+                    </p>
+                    <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
+                      Una vez registrado, recibirá el archivo de instalación directamente en su email. Siga los pasos de abajo para instalarlo correctamente.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -128,16 +126,16 @@ export default function Android() {
             <div className="flex gap-6 group">
               <div className="flex flex-col items-center">
                 <div className="flex size-10 items-center justify-center rounded-full bg-primary text-white shadow-md">
-                  <span className="material-symbols-outlined" aria-hidden="true">download</span>
+                  <span className="material-symbols-outlined" aria-hidden="true">mark_email_read</span>
                 </div>
                 <div className="w-px grow bg-slate-200 group-last:hidden dark:bg-white/10" aria-hidden="true"></div>
               </div>
               <div className="pb-10 pt-1">
                 <h4 className="text-lg font-bold text-slate-900 dark:text-white">
-                  1. Descargar APK
+                  1. Recibir APK por Email
                 </h4>
                 <p className="mt-1 text-slate-600 dark:text-slate-400">
-                  Inicie la descarga haciendo clic en el botón de arriba. El paquete está firmado criptográficamente para mayor seguridad.
+                  El archivo APK le será enviado directamente a su correo electrónico. Revise su bandeja de entrada y descargue el archivo adjunto.
                 </p>
               </div>
             </div>
@@ -217,32 +215,7 @@ export default function Android() {
         </section>
       </main>
 
-      {/* Sticky Bottom CTA */}
-      <div 
-        className="sticky bottom-0 z-40 w-full border-t border-primary/10 bg-white/90 p-4 backdrop-blur-md dark:bg-slate-900/90 dark:border-white/5 lg:p-6"
-        role="complementary"
-        aria-label="Acciones rápidas"
-      >
-        <div className="mx-auto flex max-w-5xl items-center justify-between gap-4">
-          <div className="hidden sm:block">
-            <p className="text-sm font-bold text-primary dark:text-white">
-              ¿Va al campo?
-            </p>
-            <p className="text-xs text-slate-500">
-              Sylvara Android v1.0 es estable y está listo.
-            </p>
-          </div>
-          <div className="flex w-full items-center justify-center gap-4 sm:w-auto">
-            <button 
-              className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-primary px-8 py-3 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary-dark transition-smooth sm:flex-none focus-visible:ring-4 focus-visible:ring-primary/30"
-              aria-label="Obtener archivo APK ahora"
-            >
-              <span className="material-symbols-outlined text-sm" aria-hidden="true">download</span>
-              Obtener APK Ahora
-            </button>
-          </div>
-        </div>
-      </div>
+
 
       {/* Footer */}
       <footer className="bg-primary px-6 py-12 text-white/60" role="contentinfo">
